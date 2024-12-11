@@ -1,0 +1,58 @@
+/* main.css */
+
+.myheader{
+background-color: green;
+padding: 20px;
+text-align: center;
+}
+
+body{
+     background-color: lightblue;
+
+}
+
+
+nav{
+        display: flex;
+        justify-content: center;
+        background-color: orange;
+}
+
+nav a{
+       display: inline-block;
+       color: black;
+       text-align: center;
+       padding: 16px 16px;
+
+}
+
+nav a:hover{
+             background-color: white
+             
+
+}
+
+
+p{
+   text-align: center;
+   font-size: 23px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+footer{
+
+position: fixed;
+left: 0;
+bottom: 0;
+background-color: black;
+color: white;
+text-align: center; 
+padding:10px 0px;
+width:100%;
+}
